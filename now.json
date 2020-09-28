@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "name": "tripday_demo_api",
+  "builds": [{ "src": "/server.js", "use": "@now/node-server" }],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/server.js"
+    }
+  ]
+}
